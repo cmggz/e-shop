@@ -1,0 +1,208 @@
+#content{
+	padding-top: 88px;
+	margin-bottom: 15px;
+}
+/*title 开始*/
+#content .title{
+	padding: 15px 0;
+	color: #7c7c7c;
+	height: 30px;
+	line-height: 30px;
+}
+#content .title .glyphicon{
+	font-size: 27px;
+}
+#content .title .company{
+	font-size: 50%;
+	color: #afafaf;
+	font-style: italic;
+	vertical-align: middle;
+}
+/*title 结束*/
+
+/*slogan 开始*/
+#slogan{
+	background: #f4f4f4;
+	height: 30px;
+	line-height: 30px;
+	padding: 15px;
+	border: 1px solid #efefef;
+	text-align: center;
+	font-size: 21px;
+	color: #7c7c7c;
+	margin-bottom: 15px;
+}
+/*slogan 结束*/
+
+/*user-list 开始*/
+#user-list{
+	overflow: hidden;
+}
+#user-list > li{
+	width: 300px;
+	height: 343px;
+	padding: 4px;
+	border: 1px solid #ddd;
+	float: left;
+	margin-right: 15px;
+}
+#user-list > li > img{
+	width: 300px;
+	height: 200px;
+}
+#user-list >li >h3{
+	margin: 0 0 5px;
+	font-weight: 400;
+	color: #4d4d4d;
+	font-size: 17.5px;
+	padding: 5px;
+}
+#user-list p{
+	font-weight: 400;
+	color: #7c7c7c;
+	padding: 0 5px 5px;
+}
+#user-list .follow-him{
+	overflow: hidden;
+}
+#user-list .follow-him li{
+	display: inline-block;
+	margin-right: 5px;
+	padding: 0;
+}
+#user-list .follow-him .glyphicon{
+	color: #797979;
+	font-size: 24px;
+}
+#user-list .follow-him .glyphicon:hover{
+	color: #e5412d;
+}
+#user-list .follow-him .selected .glyphicon{
+	color: #e5412d;
+}
+/*user-list 结束*/
+
+/*tool 开始*/
+#tool{
+	overflow: hidden;
+	margin-bottom: 15px;
+}
+#tool .web-user{
+	border: 1px solid #efefef;
+	padding: 15px;
+	width: 440px;
+}
+#tool .app-feature{
+	border: 1px solid #efefef;
+	padding: 15px;
+	width: 440px;
+}
+#tool .web-user:nth-child(2n+1){
+	float: left;
+}
+#tool .app-feature:nth-child(2n){
+	float: right; /*奇数列靠左，偶数列靠右*/
+}
+#tool .glyphicon{
+	color: #e2e2e2;
+	font-size: 50px;
+	float: left;
+	margin-top: 5px;
+}
+#tool h3{
+	margin-left: 70px;
+	font-weight: 400;
+    color: #7c7c7c;
+    font-size: 17.5px;
+}
+#tool p{
+	margin-left: 70px;
+    color: #7c7c7c;
+    margin-bottom: 5px;
+}
+#tool a{
+	margin-left: 70px;
+	color: #e5412d;
+}
+#tool .user,.feature{
+	margin-top: 5px;
+}
+/*tool 结束*/
+
+/*carousel-news开始*/
+#carousel-news{
+	overflow: hidden;
+}
+
+.news-feed{
+	float: right;
+	margin-right: 0;
+}
+.carousel{
+	float: left;
+}
+.news-feed .news{
+	width: 440px;
+	height: 66px;
+	border: 1px solid #efefef;
+	background: #f4f4f4;
+	padding: 15px;	
+	margin-bottom: 15px;
+}
+.news-feed .news > h4{
+	font-weight: 400;
+    color: #4d4d4d;
+    font-size: 14px;
+}
+.news-feed .news .glyphicon{
+	color: #e2e2e2;
+    font-size: 32px;
+    margin-top: 10px;	
+}
+.news-feed .news .introduce{
+	color: #7c7c7c;	
+	float: right;
+	width: 400px;
+}
+.news-feed .feed .glyphicon{
+	font-size: 22px;
+    font-weight: normal;
+    color: #575655;	
+}
+.twitter-feed{
+	height: 25px;
+    line-height: 25px;
+    color: #7c7c7c;
+    font-size: 14px;
+}
+.lorem-ipsum{
+	width: 440px;
+	height: 42px;
+	border: 1px solid #efefef;
+	background: #f4f4f4;
+	padding: 15px;
+	color: #7c7c7c;	
+	margin-top: 10px;
+}
+/*carousel-news 结束*/
+
+/*separator 开始*/
+.separator{
+	height: 2px;
+	background: #f4f4f4;
+	margin: 30px 0;
+	position: relative;
+	text-align: center;
+}
+.separator .glyphicon{
+	font-size: 40px;
+	position: absolute;
+	top: 50%;
+	margin-top: -18px;
+	left: 50%;
+	margin-left: -32px;
+	padding: 0 10px;
+	background: #fff;
+	color: #7c7c7c;
+}
+/*separator 结束*/

@@ -1,0 +1,99 @@
+#content{
+	padding-top: 88px;
+}
+.map{
+	text-align: center;
+	height: 400px;
+}
+#content h3{
+	margin: 30px 0;
+   font-weight: 400;
+   font-size: 24.5px;
+   color: #7c7c7c;
+}
+#content h3 span{
+	padding: 0 10px 0 0;
+}
+#messages{
+	overflow: hidden;
+}
+.user-message{
+	float: left;
+	width: 570px;
+	
+}
+.user-message input{
+	padding: 4px 6px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    width: 254px;
+    height: 22px;
+    color: #7c7c7c;
+}
+.user-message textarea{
+	padding: 4px 6px;
+    margin-bottom: 10px;
+    width: 537px;
+    height: 100px;
+    color: #7c7c7c;
+}
+.user-message a{
+	background: #e5412d;
+    color: #fff;
+    padding: 5px 7px 5px 40px;
+    font-size: 14px;
+    width: 96px;
+    height: 20px;
+    line-height: 20px;
+    position: relative;
+}
+.user-message span{
+	position: absolute;
+	top:  50%;
+	margin-top: -7px;
+	left: 14px;
+	font-size: 15px;
+    color: rgba(255, 255, 255, 0.4);
+}
+.contact-message{
+	float: right;
+	width: 360px;
+	height: 205px;
+	background: #424242;
+	color: #fff;
+	padding: 15px;
+}
+.contact-message h2{
+	font-size: 26px;
+}
+.contact-message h6{
+	font-weight: bold;
+	font-size: 13px;
+	height: 20px;
+	line-height: 20px;
+}
+.contact-message h5{
+	font-weight: 400;
+}
+.contact-message p{
+	padding-top: 30px;
+}
+#important-note h4{
+	font-weight: bold;
+	color: #7c7c7c;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+#important-note  p{
+	padding: 15px;
+	border: 1px solid #efefef;
+	background: #efefef;
+	color: #7c7c7c;
+}
+#important-note  p a{
+	color: #e5412d;
+	text-decoration: underline;
+}
+#important-note  p a:hover{
+	color: #000;
+}

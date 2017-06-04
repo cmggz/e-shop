@@ -1,0 +1,239 @@
+/*title 开始*/
+#content{
+	padding-top: 88px;
+	overflow: hidden;
+}
+#title-select{
+	overflow: hidden;	
+}
+.title{
+	margin: 15px 0;
+	color: #7c7c7c;
+	font-size: 24px;
+	float: left;
+}
+.title .glyphicon{
+	font-size: 27px;
+}
+#content .select{
+	float: right;
+	overflow: hidden;
+}
+#content .select h5{
+	float: left;
+	font-weight: bold;
+	margin-right: 5px;
+	color: #7c7c7c;
+	line-height: 50px;
+}
+#content .select .select-box{
+	float: right;
+}
+.sel-btn{
+	width: 200px;
+	height: 30px;
+	line-height: 30px;
+	background: #e8e8e8;
+	padding: 0 10px;
+	position: relative;
+	margin: 15px 0 5px 0;
+}
+.sel-btn p{
+	overflow: hidden;	
+	margin-right: 30px;
+}
+.sel-btn span{
+	border: 4px solid transparent;
+	border-top: 4px solid #747474;
+	position: absolute;
+	right: 15px;
+	top: 50%;
+	margin-top: -2px;
+}
+.sel-menu{
+	background: #fff;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	padding: 5px 0;
+	display: none;
+}
+.sel-menu li{
+	line-height: 26px;
+	padding: 0 20px;
+	color: #000;
+	width: 177px;
+	text-align: right;
+}
+.sel-menu li:hover{
+	background: #0081c2;
+}
+/*title 结束*/
+
+/*table list 开始*/
+#list{
+	border-collapse:collapse;
+	border: 1px solid #dddddd;
+	width: 100%;
+}
+#list th{
+	height: 20px;
+ 	line-height: 20px;
+ 	padding: 8px;
+ 	background: #e5421d;
+ 	text-align: left;
+ 	color: #fff;
+ 	border: 1px solid #e5412d;
+ }
+#list .checkbox,#list .boxs{
+	display: inline-block;
+	height: 19px;
+	width: 19px;
+}
+
+#list .input{
+ 	width:36px;
+ 	height: 20px;
+ 	padding: 4px 6px;
+ 	border-radius: 0px;
+ 	border: 1px solid #cccccc;
+    color: #A7A7A7;
+ }
+#list tbody tr:hover,table tbody tr.selected{
+	background: #efefef;
+}
+#list td{
+ 	height: 145px;
+ 	text-align: center;
+ 	vertical-align: middle;
+ }
+#list td img{
+ 	width: 80px;
+ 	float: left;
+ 	padding: 3px;
+    border: 1px solid #efefef;
+    background: #fff;
+    margin: 0 10px;
+ }
+#list td .product{
+ 	float: left;
+ 	text-align: left;
+ 	
+ }
+#list td h4{
+ 	font-weight: 400;
+    color: #4d4d4d;
+    font-size: 14px;
+ }
+#list td a{
+ 	font-size: 12px;
+    color: #e5421d;
+ }
+#list td .size{
+ 	float: left;
+ 	color: #7c7c7c;
+ }
+#list td .color{
+ 	float: right;
+ 	color: #7c7c7c;
+ }
+#list td .label{
+    font-size: 11.844px;
+    display: inline-block;
+    padding: 2px 4px;
+    border-radius: 3px;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 14px;
+    color: #ffffff;
+    background-color: #999999;
+    margin-top: 5px;	
+}
+/*table list 结束*/
+
+/*discount-payment 开始*/
+#discount-payment{
+	margin-top: 15px;
+}
+.discount{
+	float: left;
+	width: 440px;
+	height: 105px;
+	border: 1px solid #efefef;
+    padding: 15px;
+    background: #f4f4f4;
+    margin-right: 15px;
+    font-weight: bold;
+	color: #7c7c7c;
+	text-align: center;
+}
+.discount h3{
+	margin-bottom: 15px;
+	font-weight: normal;
+}
+.discount input{
+	width: 426px;
+	height: 20px;
+	padding: 4px 6px;
+	margin-bottom: 10px;
+	border-color: #f4f4f4;
+    color: #A7A7A7;
+}
+.discount a{
+	background: #424242;
+    color: #fff;
+    display: inline-block;
+    padding: 4px 12px;
+    font-size: 14px;
+    line-height: 20px;
+}	
+.price{
+	float: left;
+}
+.price-left,table .price-right{
+	width: 85px;
+	height: 20px;
+	padding: 4px 10px;
+	color: #7c7c7c;
+	text-align: right;
+}
+.price-right{
+	width: 104px;
+	font-weight: bold;
+}
+.payment{
+	float: right;
+}
+.total{
+	font-size: 15px;
+    color: #222;
+    height: 29px;
+    padding: 0 10px;
+    line-height: 29px;
+    background: #e5e5e5;
+	border-radius: 3px;
+	width: 210px;
+	text-align: center;
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+.payment .proceed{
+	width: 180px;
+	height: 40px;
+	line-height: 20px;
+	background: #e5412d;
+    font-size: 18px;
+    padding: 10px 10px 10px 40px;
+    font-weight: 600;
+    position: relative;  
+}
+.payment .proceed a{
+	color: #fff;
+	text-align: left;	
+}
+.payment .proceed span{
+	position: absolute;
+	top: 14px;
+	left: 10px;
+	color: rgba(255, 255, 255, 0.4);
+}
+/*discount-payment 结束*/
